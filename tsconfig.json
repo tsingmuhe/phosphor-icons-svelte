@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "useDefineForClassFields": true,
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "types": [
+      "svelte",
+      "@testing-library/jest-dom/vitest"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.svelte",
+    "test/**/*.ts",
+    "test/**/*.svelte"
+  ],
+  "exclude": [
+    "test/setup.ts"
+  ]
+}

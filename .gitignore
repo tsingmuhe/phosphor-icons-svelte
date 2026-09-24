@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# svelte
+.svelte-kit/
+
+# builds
+build
+dist
+.cache
+
+# IDE
+.vscode/
+.idea/
+
+# misc
+.DS_Store
