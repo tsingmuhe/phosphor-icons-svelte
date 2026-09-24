@@ -53,7 +53,8 @@
   "scripts": {
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
-    "build": "svelte-package --input ./src"
+    "clean": "rm -rf dist",
+    "build": "pnpm clean && pnpm run check && pnpm run test &&svelte-package --input ./src"
   },
   "devDependencies": {
     "@sveltejs/package": "^2.5.8",
