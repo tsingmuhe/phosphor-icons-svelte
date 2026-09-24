@@ -49,7 +49,7 @@
     "UI",
     "UX"
   ],
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "pnpm@12.6.0",
   "scripts": {
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "test": "vitest run",
